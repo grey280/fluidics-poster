@@ -107,31 +107,6 @@
 		border-bottom-style:solid;
 		border-bottom-width:3px;
 	}
-	.poster{
-		background-color:#babdb6;
-		border-color:#babdb6;
-	}
-	.neuralnet{
-		background-color:#73d216;
-		border-color:#73d216;
-	}
-	.genreID{
-		background-color:#729fcf;
-		border-color:#729fcf;
-	}
-	.instID{
-		background-color:#fcaf3e;
-		border-color:#fcaf3e;
-	}
-	.mir{
-		background-color:#ad7fa8;
-		border-color:#ad7fa8;
-		color:#eeeeec;
-	}
-	.wrong{ /* Putting this in here just so I have the red I used in the graph documented */
-		background-color:#DE1515;
-		border-color:#DE1515;
-	}
 	.code, a.code:link, a.code:visited, a.code:active{
 		background-color:#888a85;
 		color:#eeeeec;
@@ -196,8 +171,6 @@
 </header>
 <section class="poster first" id="introduction">
 	<h1 class="poster">introduction</h1>
-	<img src="../data/qr.png" style="width:5in; margin-right:.25in">
-	<p>Scan the QR code for the more verbose digital version of this poster.</p>
 	<p>Music is rich in information - from things like what key and time signature are being played in up to the sociocultural context in which the lyrics were written.</p>
 	<p>The field of music information retrieval exists to provide musicologists with automated tools. Complex tasks like <span class="genreID">genre recognition</span> remain out of reach. Neural networks offer a solution to this problem: a form of <span class="neuralnet">machine learning</span> that consist of <span class="neuralnet">nodes</span> connected by <span class="neuralnet">weighted edges.</span> Input is propagated through the network from node to node along those edges.</p>
 </section>
@@ -247,15 +220,8 @@
 	</div>
 	<div>
 		<h2 style="padding-bottom:.1in" class="instID">results</h2><p>Using raw samples, rather than FFT data, appears to yield higher overall accuracy.</p>
-		<img src="../data/Chart5.png" style="/*float:left; clear:left; width:10in; margin-right:.25in*/">
+		<img src="../data/Chart5.png">
 	</div>
-</section>
-<section class="poster third" id="references">
-	<h1 class="poster">references</h1>
-	Chollet, F. <em>Keras</em>, 2015, https://github.com/fchollet/keras/<br />
-	Li, T., Chan, A., Chun, A.. <em>"Automatic Musical Pattern Feature Extraction Using Convolutional Neural Network"</em><br />
-	R. Bittner, J. Salamon, M. Tierney, M. Mauch, C. Cannam and J. P. Bello, <em>"MedleyDB: A Multitrack Dataset for Annotation-Intensive MIR Research"</em>, in 15th International Society for Music Information Retrieval Conference, Taipei, Taiwan, Oct. 2014.<br />
-	This material is based upon work supported by the National Science Foundation under award OCI-1560410 with additional support from the Center for Computation &amp; Technology at Louisiana State University.
 </section>
 </body>
 </html>
